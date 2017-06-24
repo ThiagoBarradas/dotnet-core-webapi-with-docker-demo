@@ -1,9 +1,6 @@
 ﻿using Nancy;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Testeer.Controller
+namespace DotNetCore.WebApi.Docker.Demo.Controller
 {
     public class HomeController : NancyModule
     {
@@ -14,7 +11,7 @@ namespace Testeer.Controller
 
         public object GetTest()
         {
-            return Response.AsJson(new { we = "Hello World" });
+            return Response.AsJson(new { Message = "This is a simple test" });
         }
 
         private void RegisterRoutes()

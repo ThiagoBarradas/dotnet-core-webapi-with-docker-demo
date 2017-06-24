@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using System.IO;
 
-namespace Testeer
+namespace DotNetCore.WebApi.Docker.Demo
 {
     class Program
     {
@@ -11,6 +11,7 @@ namespace Testeer
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseStartup<Startup>()
+                .UseUrls("http://localhost:80")
                 .Build();
 
             host.Run();

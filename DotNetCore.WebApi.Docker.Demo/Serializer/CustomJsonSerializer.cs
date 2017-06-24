@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Testeer.Serializer
+namespace DotNetCore.WebApi.Docker.Demo.Serializer
 {
     public class CustomJsonSerializer : JsonSerializer
     {

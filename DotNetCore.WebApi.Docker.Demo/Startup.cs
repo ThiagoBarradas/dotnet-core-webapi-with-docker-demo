@@ -1,8 +1,7 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Nancy.Owin;
 
-namespace Testeer
+namespace DotNetCore.WebApi.Docker.Demo
 {
     public class Startup
     {

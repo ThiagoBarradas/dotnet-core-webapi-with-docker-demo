@@ -2,13 +2,10 @@
 using Nancy.Bootstrapper;
 using Nancy.TinyIoc;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using Testeer.Serializer;
+using DotNetCore.WebApi.Docker.Demo.Serializer;
 
-namespace Testeer
+namespace DotNetCore.WebApi.Docker.Demo
 {
     public class Bootstrapper : DefaultNancyBootstrapper
     {
