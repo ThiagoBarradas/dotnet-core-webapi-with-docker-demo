@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testeer", "Testeer\Testeer.csproj", "{5D5F827A-B87F-4331-8AA9-5BC9B72DE33B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA7353DC-6946-467D-BC12-0749434CD163}"
+	ProjectSection(SolutionItems) = preProject
+		DockerFile = DockerFile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D5F827A-B87F-4331-8AA9-5BC9B72DE33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5F827A-B87F-4331-8AA9-5BC9B72DE33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5F827A-B87F-4331-8AA9-5BC9B72DE33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5F827A-B87F-4331-8AA9-5BC9B72DE33B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
