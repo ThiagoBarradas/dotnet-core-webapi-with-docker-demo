@@ -4,7 +4,7 @@ FROM microsoft/dotnet
 ARG repositoryUrl=https://github.com/ThiagoBarradas/try.dotnet.core.on.docker
 ARG configuration=Release
 ARG distFolder=DotNetCore.WebApi.Docker.Demo/bin/Release/netcoreapp1.1
-ARG apiPort=80
+ARG apiPort=5000
 ARG appFile=DotNetCore.WebApi.Docker.Demo.dll
 
 # Change to temp workspace

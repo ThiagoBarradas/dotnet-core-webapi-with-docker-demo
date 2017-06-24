@@ -11,7 +11,6 @@ namespace DotNetCore.WebApi.Docker.Demo
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseStartup<Startup>()
-                .UseUrls("http://localhost:80")
                 .Build();
 
             host.Run();
