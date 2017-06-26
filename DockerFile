@@ -1,7 +1,7 @@
 FROM microsoft/dotnet
 
 # Args / Env
-ARG repositoryUrl=https://github.com/ThiagoBarradas/try.dotnet.core.on.docker
+ARG repositoryUrl=https://github.com/ThiagoBarradas/DotNetCore.WebApi.Docker.Demo
 ARG configuration=Release
 ARG distFolder=DotNetCore.WebApi.Docker.Demo/bin/Release/netcoreapp1.1
 ARG apiPort=5000
