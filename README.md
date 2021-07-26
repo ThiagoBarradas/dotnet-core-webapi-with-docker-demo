@@ -4,9 +4,16 @@
 
 # How to run project? 
 
-Running with docker (your terminal must be in same directory that the DockerFile):
+First head into the `DotNetCore.WebApi.Docker.Demo` folder and then build a release version with the following commands.
+```sh
+cd DotNetCore.WebApi.Docker.Demo
+dotnet build --configuration Release
+```
+
+After that, head back in the root of the project, then start running with docker (your terminal must be in same directory that the DockerFile):
 
 ```
+cd ..
 docker build -t dotnetapidemo . --no-cache
 docker run -t -p 1234:5000 dotnetapidemo
 ```
